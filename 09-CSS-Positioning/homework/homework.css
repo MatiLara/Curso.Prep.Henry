@@ -7,32 +7,63 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Arrancaremos este ejercicio por vos: */
 #ejercicioUno {
-
+display: block;
+text-align: center;
 }
 
 
 /* Ejercicio 2: Posicionar el header */
 
 /* Acá va tu código */
-
+#ejercicioDos {
+    display: none;
+}
 
 
 /* Ejercicio 3: */
 
 /* Acá va tu código */
 
-
+#ejercicioTres {
+position: relative;
+top: 100px;
+left: 200px;
+}
 
 /* Ejercicio 4: */
 
 /* Acá va tu código */
-
-
+#ejercicioCuatro {
+position: fixed;
+top:0;
+left: 0;
+}
 
 /* Ejercicio 5: */
 
 /* Acá va tu código */
 
-
+#ejercicioCinco {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+} 
 
 /* Ejercicio 6. */
+/* El ejercicio 6 se realizó en el 5 ya que no es buena practica utilizar el mismo ID en distintos lugares
+(en este caso tendria que llamar #ejercicioCinco de vuelta) */
+
+
+#elementoUno {
+    display: flex;
+    align-self: flex-end;
+}
+#elementoDos {
+    display: flex;
+    align-self: center;
+}
+#elementoTres {
+    display: flex;
+    align-self:center;
+}
